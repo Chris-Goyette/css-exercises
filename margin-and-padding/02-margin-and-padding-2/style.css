@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
   margin: 0px;
 }
 
@@ -13,24 +12,33 @@ body {
   width: 400px; 
   background: #fff;
   margin: 16px auto;
-
+  padding: 8px;
 }
 
 .title {
-  background: #0889e0;
-  margin-top:0px;
-  padding: 10px;
+  background: #aac7db;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
-  background: #0889e0;
+  background: #aac7db;
+  padding: 16px 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
-  background: #0889e0;
+  background: #aac7db;
+  padding: 8px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 10px;
+  display: block;
+  margin: 0px auto;
 }
