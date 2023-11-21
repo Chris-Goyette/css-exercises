@@ -2,8 +2,9 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  flex: 1; 
   justify-content: space-between;
-  border: 1px solid red;
+  align-items: center;
 }
 
 .logo {
@@ -12,6 +13,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
 }
 
 ul {
@@ -19,13 +21,15 @@ ul {
   list-style-type: none;
   display: flex;
   padding-left: 0px;
-  border: 1px solid red;
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
+  margin: 10px;
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
