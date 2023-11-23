@@ -49,14 +49,12 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  border: 1px red solid;
   gap: 16px; 
   padding: 0px; 
 }
 
 .left, .right {
   display: flex;
-  border: 1px red solid; 
   gap: 16px; 
   align-items: center;
 }
