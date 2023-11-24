@@ -13,6 +13,10 @@ img {
   display: flex;
 }
 
+.image-1, .image-2, .image-3, .image-4 {
+  border: 1px solid black;
+}
+
 
 .text {
   /* My additions */
