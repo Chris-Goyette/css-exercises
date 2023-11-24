@@ -17,19 +17,31 @@ body {
   padding: 8px; 
 }
 
-.profile-image {
-  background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-}
+
 
 .logo {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  /*My additions*/
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  /*My additions*/
+  display: flex;
+  padding-left: 0px;
+  gap: 10px;
+  margin-right: auto;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+  /*My additions*/
 }
 
 button {
@@ -38,12 +50,17 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  /*My additions*/
 }
 
-a {
-  /* this removes the line under our links */
-  text-decoration: none;
-  color: rebeccapurple;
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  /*My additions*/
+  margin-right: 10px;
 }
 
 ul {

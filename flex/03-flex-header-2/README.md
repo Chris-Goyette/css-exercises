@@ -19,3 +19,10 @@ As with the last example, this one needs to be flexible in the middle, with item
 - Items are arranged horizontally as seen in the outcome image.
 - There is 16px between each item on both sides of the header.
 - flex is used to arrange everything.
+
+
+# What I've done: 
+- Created my own solution under style.css
+
+# Next Steps:
+- Create a new branch with the provided solution 
