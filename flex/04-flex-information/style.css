@@ -5,10 +5,17 @@ body {
 img {
   width: 100px;
   height: 100px;
+  /* My additions */
   border: 1px red solid;
 }
 
+.images-and-descriptions {
+  display: flex;
+}
+
+
 .text {
+  /* My additions */
   border: 1px red solid;
 }
 
