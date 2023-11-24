@@ -12,10 +12,6 @@ img {
   border: 1px red solid;
 }
 
-.images-and-descriptions {
-  display: flex;
-}
-
 .title {
   font-size: 36px;
   font-weight: 900;
