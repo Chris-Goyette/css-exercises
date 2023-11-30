@@ -26,19 +26,26 @@ body {
 
 .header {
   flex: 1;
-  border: 1px red solid;;
+  font-weight: bold;
+  font-size: large;
 }
 
 .container {
-  border: 1px red solid;
+  margin: 10px; 
 }
+
+.text {
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
+
 
 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width: 160px;
   height: 42px;
   border-radius: 50%;
   display: flex;
