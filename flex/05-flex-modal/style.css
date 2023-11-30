@@ -21,8 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  padding: 10px;
 }
-
 
 .header {
   flex: 1;
@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-  border: 1px red solid;;
+  border: 1px red solid;
 }
 
 .icon {
