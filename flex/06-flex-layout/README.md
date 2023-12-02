@@ -20,3 +20,10 @@ Flexbox is useful for laying out entire pages as well as the smaller components 
 - The logo, input and buttons are centered in the screen.
 - The buttons have an appropriate amount of padding.
 - There is space between the logo, input and buttons.
+
+
+### My progress / Notes
+- Styling is complete 
+
+- Left to do:
+    - Find a way to bring the footer down to the bottom of the page 
