@@ -31,15 +31,18 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  border: 1px red solid;
 }
 
 .header ul {
   display: flex;
   list-style-type: none;
   padding: 0px;
-  border: 1px red solid;
   gap: 10px;
+}
+
+.header ul li a { /* text-decoration is not an inheritable property, which is why I have to be specific here */
+  text-decoration: none;
+  color: gray
 }
 
 .left-links {
