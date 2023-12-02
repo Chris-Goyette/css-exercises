@@ -25,3 +25,27 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* My additions */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px red solid;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  border: 1px red solid;
+  gap: 10px;
+}
+
+.left-links {
+  margin-left: 10px;
+}
+
+.right-links {
+  margin-right: 10px;
+}
