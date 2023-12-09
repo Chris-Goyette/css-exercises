@@ -22,7 +22,6 @@ body {
 
 /* my addition */
 .middle-content {
-  border: 2px red solid;
   flex: 1;
   display: flex;
 }
@@ -30,12 +29,17 @@ body {
 /* my addition */
 .cards-container {
   display: flex;
-  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px; 
+  padding: 32px; 
+  
 }
 
 /* my addition */
 .cards-container .card {
-  border: 2px red solid;
+  flex-basis: 300px;
+  padding: 10px; 
 }
 
 
@@ -49,9 +53,24 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  min-width: 300px;
   background: royalblue;
   box-sizing: border-box;
+}
+
+/* my additions */
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  padding: 16px; 
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
 }
 
 .card {
