@@ -64,6 +64,15 @@ input {
   text-align: center;
 }
 
+.buttons {
+  display: flex;
+  gap: 10px; 
+  justify-content: center;
+}
+.buttons button {
+  padding: 10px; 
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
