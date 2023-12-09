@@ -24,12 +24,28 @@ body {
 .middle-content {
   border: 2px red solid;
   flex: 1;
+  display: flex;
 }
+
+/* my addition */
+.cards-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+/* my addition */
+.cards-container .card {
+  border: 2px red solid;
+}
+
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
